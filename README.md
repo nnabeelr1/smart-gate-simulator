@@ -2,8 +2,6 @@
 
 A comprehensive Python GUI application that simulates intelligent parking gate operations with automated flow sequences, member management, and real-time capacity monitoring.
 
-![Smart Gate Demo](demo-screenshot.png)
-
 ## ✨ Features
 
 ### 🎯 Core Functionality
@@ -38,19 +36,6 @@ A comprehensive Python GUI application that simulates intelligent parking gate o
 Python 3.7+
 tkinter (usually included with Python)
 ```
-
-### Installation
-1. Clone the repository:
-```bash
-git clone https://github.com/yourusername/smart-gate-simulator.git
-cd smart-gate-simulator
-```
-
-2. Run the application:
-```bash
-python smart_gate_simulator.py
-```
-
 ### First Run
 The application will automatically create a `members.json` file with sample data including:
 - **VIP Members**: B1234XX, B5678YY, D9999ZZ
@@ -96,8 +81,7 @@ smart-gate-simulator/
 ├── smart_gate_simulator.py    # Main application file
 ├── members.json              # Member database (auto-created)
 ├── README.md                 # This file
-├── demo-screenshot.png       # Application screenshot
-└── requirements.txt          # Python dependencies
+└── .gitignore
 ```
 
 ## 🎨 User Interface
@@ -166,18 +150,5 @@ For questions, issues, or suggestions:
 - **v1.0.0** - Initial release with core simulation features
 - **v1.1.0** - Added member management and enhanced UI
 - **v1.2.0** - Implemented visual simulation and flow controls
-
-## 📸 Screenshots
-
-### Main Interface
-![Main Interface](screenshots/main-interface.png)
-
-### Flow Simulation
-![Flow Simulation](screenshots/flow-simulation.png)
-
-### Member Management
-![Member Management](screenshots/member-management.png)
-
----
 
 **Built with ❤️ for smart parking solutions and IoT simulation**
